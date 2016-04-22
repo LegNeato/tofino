@@ -25,6 +25,8 @@ export const getAppVersion = () => {
   return manifest.version;
 };
 
+export const getRoot = () => path.dirname(__dirname);
+
 export const getManifest = () => manifest;
 
 export const getElectronPath = () => electronPath;
